@@ -1,6 +1,6 @@
 
 
 
-Visit **[filizkoksel.github.io](https://filizkoksel.github.io)** 🚀
+Visit **[filizkoksel.ca](http://filizkoksel.ca)** 🚀
 
 
