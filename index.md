@@ -1,7 +1,8 @@
 ---
 ---
 
-# FilizKokselDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Welcome to Food Pro lab’s website. 
+# Here, we explore innovative solutions in food science and share our latest research and projects with you.
 
 
 
@@ -11,30 +12,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Discover the innovative projects we're working on in food science.
 
 {%
   include button.html
@@ -49,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research1.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -59,7 +37,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore our published research.
+
+{%
+  include button.html
+  link="research"
+  text="Browse our publications"
+  icon="fa-solid fa-arrow-right"
+  
+  style="bare"
+%}
+
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/ourresearch.jpg"
+  link="research"
+  title="Our Research"
+
+  style="bare"
+  text=text
+%}
+
+{% capture text %}
+
+Get to know the team behind our research and projects.
 
 {%
   include button.html
@@ -74,8 +78,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.png"
   link="team"
   title="Our Team"
+  flip=true
   text=text
 %}
